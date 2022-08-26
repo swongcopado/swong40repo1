@@ -8,19 +8,19 @@ public class AcctOps {
     }
         
     public static Account setDefaultBillingAddress(Account a){
-        a.billingstreet = '535 Mission Street'; // Head office moved to California
+        a.billingstreet = '535 Mission Street, 15th floor'; // Head office moved to 15th Floor
         a.billingstate = 'California';
         a.billingpostalcode ='94105'; 
         return a;
     }
     public static Account setDefaultShippingAddress(Account a){
-        a.shippingstreet = '535 Mission Street'; // Head office moved to California 
+        a.shippingstreet = '535 Mission Street, 15th floor'; // Head office moved to 15th Floor
         a.shippingstate = 'California';
         a.shippingpostalcode ='94105'; 
         return a;
     }
     public static Account setDefaultPhone(Account a) {
-        a.Phone='666777888'; // Head office moved to California
+        a.Phone='8888888'; // Head office moved to 15th Floor, phone number changed
         return a;
     }
     public static Account setDefaultURL(Account a) { 
