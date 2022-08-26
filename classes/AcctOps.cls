@@ -6,7 +6,7 @@ public class AcctOps {
             return a;
         }
     }
-    
+        
     public static Account setDefaultBillingAddress(Account a){
         a.billingstreet = '535 Mission Street, 15th floor'; // Head office moved to 15th Floor
         a.billingstate = 'California';
@@ -20,11 +20,11 @@ public class AcctOps {
         return a;
     }
     public static Account setDefaultPhone(Account a) {
-        a.Phone='611111111'; // Head office moved to 15th Floor, phone number changed
+        a.Phone='8888888'; // Head office moved to 15th Floor, phone number changed
         return a;
     }
     public static Account setDefaultURL(Account a) { 
-        a.website = 'www.copado-enterprise.com'; // Website address changed
+        a.website = 'www.copado.com'; // Head office moved to California
         return a;
     }
 }
